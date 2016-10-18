@@ -1,8 +1,6 @@
 # Techshop EEE-201: Basic programming
 
-In this chapter, we will cover how to use a [breadboard](https://en.wikipedia.org/wiki/Breadboard); yours should look something like the image below:
-
-!["Bread board"](https://cdn.sparkfun.com/assets/d/c/a/b/4/513a1dface395fa524000001.JPG)
+In this pre-chapter, we will quickly cover how to use a [breadboard](https://en.wikipedia.org/wiki/Breadboard); knowing how to use one correctly will be really important in the coming chapters.
 
 An electronics breadboard (as opposed to the type on which sandwiches are made) is actually referring to a solderless breadboard. These are great units for making temporary circuits and prototyping, and they require absolutely no soldering.
 
@@ -12,7 +10,7 @@ For those new to electronics and circuits, breadboards are often the best place 
 
 ## How it works
 
-!["Bread board"](https://cdn.sparkfun.com/assets/3/d/f/a/9/518c0b34ce395fea62000002.jpg)
+!["Bread board"](https://cdn.sparkfun.com/assets/d/c/a/b/4/513a1dface395fa524000001.JPG)
 
 Here we have a breadboard where the adhesive backing has been removed. You can see lots of horizontal rows of metal strips on the bottom of the breadboard.
 
@@ -25,6 +23,8 @@ Notice that there are only five clips on this strip. This is typical on almost a
 !["LED"](https://cdn.sparkfun.com/assets/1/b/b/3/a/518c07b8ce395f7962000000.jpg)
 
 Aside from horizontal rows, breadboards usually have what are called power rails that run vertically along the sides.
+
+!["Bread board"](https://cdn.sparkfun.com/assets/3/d/f/a/9/518c0b34ce395fea62000002.jpg)
 
 These power rails are metal strips that are identical to the ones that run horizontally, except they are, typically\*, all connected. When building a circuit, you tend to need power in lots of different places. The power rails give you lots of easy access to power wherever you need it in your circuit. Usually they will be labeled with a ‘+’ and a ‘-’ and have a red and blue or black stripe, to indicate the positive and negative side.
 
