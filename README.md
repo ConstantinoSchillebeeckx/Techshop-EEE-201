@@ -14,28 +14,28 @@
 ## Breadboards?
 
 
-## Chapter 0
+## [Chapter 0](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_0)
 
 - setup()
 - loop()
 - serial()?
 
 
-## Chapter 1
+## [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1)
 
 - simple digital output
 - blink an LED
 - byte variable type
 
 
-## Chapter 2
+## [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2)
 
 - analog output
 - fading a LED
 - int type
 
 
-## Chapter 3
+## [Chapter 3](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_3)
 
 - PWD digital output
 - fading a LED
