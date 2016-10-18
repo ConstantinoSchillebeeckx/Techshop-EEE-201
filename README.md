@@ -18,18 +18,16 @@ Description of course ... TODO
 
 ## [Chapter 0](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_0)
 
-Description of chapter ... TODO 
-
+Before we begin building our circuits, we need to know how to use a breadboard properly.  This introductory chapter will cover the basics of how a breadboards work and will get you familiar with using them.
 
 ## [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1)
 
-Description of chapter ... TODO 
-
-- setup()
-- loop()
-- println()
-- comments
-- string type
+Let's get started with Arduino!  In this chapter we are going to cover the most basic parts of getting a [sketch](https://www.arduino.cc/en/Tutorial/Sketch) running; we'll be covering the following topics:
+- `setup()`
+- `loop()`
+- `println()`
+- using comments
+- variable type `string`
 
 
 ## [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2)
