@@ -51,15 +51,56 @@ You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) onli
 
 ## Part 1 - simple blink
 
-We start by putting together a simple LED circuit which we will blink on/off with our Arduino.  The circuit you'll put together on your breadboard can be found below, and you'll be using the [Blink sketch](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_2/Blink.ino) on the arduino.  Note that the sketch assumes you've hooked your LED up to digital pin **8**.
+### Circuit
+
+We start by putting together a simple LED circuit which we will blink on/off with our Arduino.  The circuit you'll put together on your breadboard can be found below; note that the sketch we'll be using assumes you've hooked your LED up to digital pin **8**.
 
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-1.svg)
 
-There isn't *one* correct way of putting the circuit together, but many different ways will work.  In the image below, we've shown you one way that you might put your circuit together.
+There isn't *one* correct way of putting the circuit together, but many different ways will work!  To help you out, in the image below, we've shown you one way that you might put your circuit together.
 
 <p align="center">
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_2-Part_1_bb.svg">
 </p>
+
+You should be able to notice a few things with when comparing the image above to the diagram:
+- We are using an RGB LED instead of a simple LED; you can think of these RGB LEDs as 3 LEDs put together in a single package.  In the diagram, I've only hooked up the blue (B) part of the LED.
+- In the image, current will flow in a counter-clockwise direction: starting from pin 8, going through the LED, then the resistor, and back to GND; in the circuit diagram, current is shown to flow in a clock-wise direction.
+- We are taking advantage of the breadboard row #14 to connect the resistor to the black wire.
+
+A few important things to remember:
+- The resistor does not have directionality; that is, you can put it in any direction.
+- The LED does have directionality: hook the anode up to pin 8 (5V) and the cathode to resistor (which then goes to GND)
+
+### Sketch
+
+You'll be using the [Blink sketch](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_2/Blink.ino) on the arduino.  Note that the sketch assumes you've hooked your LED up to digital pin **8**.
+
+Just like we saw previously in [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1), our sketch has two parts to is: `setup()` and `loop()`; let's walk through the first part:
+
+```c
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 8 as an output.
+  pinMode(8, OUTPUT);
+}
+```
+
+In the `setup()` function, we need to tell the Arduino that we are going to use pin **8** and that we are going to use it as an `OUTPUT`; this is done through the [`pinMode()`](https://www.arduino.cc/en/Reference/pinMode) function.  Setting it as an output means that the Arduino will be turning that pin `HIGH` (setting it to 5V) or `LOW` (setting it to 0V) based on the code in the sketch.  Which is what we see in the `loop()` function:
+
+```c
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+
+If you remember what we learned in [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1), you should know that whatever is written inside the `loop()` function is, as the name implies, looped or repeated as long as the Arduino is on.  In this case, we use the [`digitalWrite()`](https://www.arduino.cc/en/Reference/DigitalWrite) to turn the pin 8 *on* or `HIGH` - what this means is that the voltage on this pin is turned on to 5V so that current can flow from the pin - this will turn your LED on!  Next, the Arduino interprets the [`delay()`](https://www.arduino.cc/en/Reference/Delay) function; this simply pauses the sketch for the duration defined in the function, in this case it's 1,000 miliseconds (or 1 second).  The next two lines within the `loop()` function are exactly the same except that instead of writing `HIGH` to pin 8, we tell the Arduino to write `LOW` - think of this as turning off the current flow in the pin, setting the voltage to 0V - this will turn your LED off.
+
+And that's it!  This sketch will turn your LED on for 1 second, then turn it off for 1 second; this gets repeated forever!
 
 
 ## Part 2 - adding in a switch
