@@ -2,19 +2,24 @@
 
 ## Circuit diagrams
 
+TODO
+
 Adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)
 
-- [Introduction](#)
-- [Schematic Symbols (Part 1)](#)
-    - [Resistors](#)
-        - [Potentiometers and Variable Resistors](#)
-    - [Capacitors](#)
-    - [Inductors](#)
-    - [Switches](#)
-    - [Power Sources](#)
-        - [DC or AC Voltage Sources](#)
-        - [Batteries](#)
-        - [Voltage Nodes](#)
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Schematic Symbols (Part 1)](#schematic-symbols-part-1)
+  * [Resistors](#resistors)
+    * [Potentiometers and Variable Resistors](#potentiometers-and-variable-resistors)
+  * [Capacitors](#capacitors)
+  * [Inductors](#inductors)
+  * [Switches](#switches)
+  * [Power Sources](#power-sources)
+    * [DC or AC Voltage Sources](#dc-or-ac-voltage-sources)
+    * [Batteries](#batteries)
+    * [Voltage Nodes](#voltage-nodes)
+
 
 ## Introduction
 
