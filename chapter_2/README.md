@@ -13,9 +13,11 @@ In this chapter, we are going to start building circuits and using our Arduino t
 
 * [Introduction](#introduction)
     * [Current limiting resistors](#current-limiting-resistors)
-* [Part 1](#part-1)
-* [Part 2](#part-2)
-* [Part 3](#part-3)
+* [Part 1 - simple blink](#part-1---simple-blink)
+  * [Circuit](#circuit)
+  * [Sketch](#sketch)
+* [Part 2 - adding in a switch](#part-2---adding-in-a-switch)
+* [Part 3 - adding in a potentiometer](#part-3---adding-in-a-potentiometer)
 
 
 ## Introduction
