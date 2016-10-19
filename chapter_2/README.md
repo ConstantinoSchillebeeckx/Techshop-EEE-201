@@ -19,7 +19,7 @@ Calculate resistor: http://led.linear1.org/1led.wiz
 
 basic blink sketch with digital pin
 
-![circuit1](https://rawgithub.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_2/Chapter-2-Part-1.svg)
+![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-1.svg)
 
 ## Part 2
 
