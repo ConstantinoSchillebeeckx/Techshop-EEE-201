@@ -2,7 +2,9 @@
 
 ## Circuit diagrams
 
-The following document will guide you through the basics of circuit diagrams; it is meant as a starting guide for orienting yourself in some of the diagrams you'll expect to see in this course. *The content is adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)*
+The following document will guide you through the basics of circuit diagrams; it is meant as a starting guide for orienting yourself in some of the diagrams you'll expect to see in this course. 
+
+*The content is adapted from [Sparkfun: How to Read a Schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)*
 
 ## Table of Contents
 
