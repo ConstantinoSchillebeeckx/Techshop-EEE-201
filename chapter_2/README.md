@@ -70,7 +70,7 @@ You should be able to notice a few things with when comparing the image above to
 
 A few important things to remember:
 - The resistor does not have directionality; that is, you can put it in any direction.
-- The LED does have directionality: hook the anode up to pin 8 (5V) and the cathode to resistor (which then goes to GND)
+- The LED **does** have directionality: hook the anode up to pin 8 (5V) and the cathode to resistor (which then goes to GND).
 
 ### Sketch
 
@@ -105,8 +105,17 @@ And that's it!  This sketch will turn your LED on for 1 second, then turn it off
 
 ## Part 2 - adding in a switch
 
-adding in the switch
-![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-2.svg)
+Let's make a slight modification to our circuit and add a momentary normally open switch.  The way this switch or button works is that unless you press on it, no connection is made accross the terminals (this is known as normally open [NO])
+
+<p align="center">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-2.svg">
+</p>
+
+I've updated the layout by adding a switch in the image below and moving the resistor around a bit.
+
+<p align="center">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_2-Part_2_bb.svg">
+</p>
 
 ## Part 3 - adding in a potentiometer
 
