@@ -82,5 +82,5 @@ More pairs of lines usually indicates more series cells in the battery. Also, th
 Sometimes – on really busy schematics especially – you can assign special symbols to node voltages. You can connect devices to these one-terminal symbols, and it’ll be tied directly to 5V, 3.3V, VCC, or GND (ground). Positive voltage nodes are usually indicated by an arrow pointing up, while ground nodes usually involve one to three flat lines (or sometimes a down-pointing arrow or triangle).
 
 <p align="center">
-![img](https://cdn.sparkfun.com/assets/f/7/5/4/2/51cc9e55ce395fcc74000000.png)
+<img src="https://cdn.sparkfun.com/assets/f/7/5/4/2/51cc9e55ce395fcc74000000.png">
 </p>
