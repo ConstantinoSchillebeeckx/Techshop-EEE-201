@@ -1,7 +1,6 @@
-# Techshop EEE-201: Basic programming
-
 ![Techshop logo](http://3dprintingforbeginners.com/wp-content/uploads/2013/03/techshop.png "Techshop logo")
 
+# Techshop EEE-201: Basic programming
 Description of course ... TODO
 
 
