@@ -42,11 +42,12 @@ Once you have obtained these three values, plug them into this equation to deter
 
 ![equation](http://latex.codecogs.com/gif.latex?R%3D%5Cfrac%7BV_%7Bs%7D-V_%7Bf%7D%7D%7Bi%7D)  
 
-Also, keep in mind these two concepts when referring to the circuit above.
-1. The current, `i`, coming out of the power source, through the resistor and LED, and back to ground is the same. [KCL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_current_law_.28KCL.29)
-2. The voltage drop across the resistor, in addition to the forward voltage drop of the LED equals the supply voltage. [KVL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29)
+Also, keep in mind these two concepts when referring to the circuit above:
 
-You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) online which will tell you exactly which resistor you should be using for your ciruit!
+1. The current, `i`, coming out of the power source, through the resistor and LED, and back to ground is the same [KCL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_current_law_.28KCL.29)
+2. The voltage drop across the resistor, in addition to the forward voltage drop of the LED equals the supply voltage [KVL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29)
+
+You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) online which will tell you exactly which resistor you should be using for your ciruit!  When in doubt, always use a larger resistor than necessary because if you don't, you risk burning up the LED.  In general, using a very large resistor will dim your LED; as you reduce the resistance, your LED will become brighter.
 
 
 ## Part 1 - simple blink
@@ -105,7 +106,7 @@ And that's it!  This sketch will turn your LED on for 1 second, then turn it off
 
 ## Part 2 - adding in a switch
 
-Let's make a slight modification to our circuit and add a momentary normally open switch.  The way this switch or button works is that unless you press on it, no connection is made accross the terminals (this is known as normally open [NO])
+Let's make a slight modification to our circuit and add a momentary normally open switch.  The way this switch or button works is that unless you press on it, no connection is made accross the terminals (this is known as normally open or NO)
 
 <p align="center">
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-2.svg">
@@ -117,7 +118,37 @@ I've updated the layout by adding a switch in the image below and moving the res
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_2-Part_2_bb.svg">
 </p>
 
+Let's also modify our sketch a little bit so that the LED always stays on; change the `setup()` and `loop()` to look like this:
+
+```c
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin 8 as an output.
+  pinMode(8, OUTPUT);
+  digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
+}
+
+// the loop function runs over and over again forever
+void loop() {
+}
+```
+
+All we've done here is made the `loop()` empty (so that it doesn't do anything) and moved the `digitalWrite()` (which turns the LED on) to the `setup()` function, since we are only interested in turning the LED on once.  After uploading the sketch to your Arduino, you should notice that the LED is off unless you press and hold the button!
+
 ## Part 3 - adding in a potentiometer
 
-using a potentiometer
+Remember in the Introduction where we introduced the concept of a [current limiting resistor](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2#current-limiting-resistors) and how we mentioned that the size of the resistor will impact the brightness of the LED?  You might want to re-read that section if you don't remember; in any case, we are going to use a potentiometer (also known as a trimpot) to adjust the brightness of our LED.  You can think of a trimpot as a variable resistance resistor; in our case we are using a 10K trimpot which means its resistance varies from 0 to 10,000 ohms.  
+
+To use the trimpot, adjust your circuit to match the following:
+
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-3.svg)
+
+<p align="center">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_2-Part_3_bb.svg">
+</p>
+
+You can use either sketch that we've talked about (the [Blink sketch](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_2/Blink.ino) or the version where the LED always stays on).  Update your sketch (if needed), and try twisting the trimpot to adjust the brightness of the LED.
+
+A few important points to remember:
+- Adding the trimpot doesn't mean we can take out the other resistor!  If we did remove it, and you twisted the trimpot all the way to 0 ohms, you'd blow up your little LED (not literally, but it would break!).
+- We only need to use 2 of the 3 pins of the trimpot.  The two outside pins will change in resistance, but in opposite directions.  So when the left pin is 0 ohms, the right pin will be 10k ohms (and vice a versa).
