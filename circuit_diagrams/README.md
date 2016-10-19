@@ -4,6 +4,17 @@
 
 Adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)
 
+- [Introduction](#)
+- [Schematic Symbols (Part 1)](#)
+    - [Resistors](#)
+        - [Potentiometers and Variable Resistors](#)
+    - [Capacitors](#)
+    - [Inductors](#)
+    - [Switches](#)
+    - [Power Sources](#)
+        - [DC or AC Voltage Sources](#)
+        - [Batteries](#)
+        - [Voltage Nodes](#)
 
 ## Introduction
 
