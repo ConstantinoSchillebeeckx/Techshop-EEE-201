@@ -2,7 +2,25 @@
 
 ## Chapter 2
 
+In this chapter, we are going to start building circuits and using our Arduino to control those circuits; we will be covering the following topics in this chapter:
+
+- blinking an LED with `digitalWrite()`
+- variable type `byte`
+- using a normally open (NO) switch 
+- using a potentiometer to adjust the brightness of the LED
+
+## Table of Contents
+
+* [Introduction](#introduction)
+    * [Current limiting resistors](#current-limiting-resistors)
+* [Part 1](#part-1)
+* [Part 2](#part-2)
+* [Part 3](#part-3)
+
+
 ## Introduction
+
+This chapter assumes you are some knowledge of how to read circuit diagrams; if you have never seen one before, head over to the [circuit diagram tutorial](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/circuit_diagrams) to read all about 'em.
 
 #### Current limiting resistors
 
@@ -26,17 +44,7 @@ Also, keep in mind these two concepts when referring to the circuit above.
 1. The current, `i`, coming out of the power source, through the resistor and LED, and back to ground is the same. [KCL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_current_law_.28KCL.29)
 2. The voltage drop across the resistor, in addition to the forward voltage drop of the LED equals the supply voltage. [KVL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_voltage_law_.28KVL.29)
 
-
-
-explain current limiting resistor, circuit diagrams
-
-Calculate resistor: http://led.linear1.org/1led.wiz
-
-
-- blinking an LED with `digitalWrite()`
-- variable type `byte`
-- using a normally open (NO) switch 
-- using a potentiometer to adjust the brightness of the LED
+You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) online which will tell you exactly which resistor you should be using for your ciruit!
 
 
 ## Part 1 
