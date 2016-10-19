@@ -55,6 +55,13 @@ We start by putting together a simple LED circuit which we will blink on/off wit
 
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-1.svg)
 
+There isn't *one* correct way of putting the circuit together, but many different ways will work.  In the image below, we've shown you one way that you might put your circuit together.
+
+<p align="center">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_2-Part_1_bb.svg">
+</p>
+
+
 ## Part 2 - adding in a switch
 
 adding in the switch
