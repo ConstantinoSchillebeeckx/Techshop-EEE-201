@@ -28,7 +28,9 @@ Limiting current into an LED is very important. An LED behaves very differently 
 
 For example, there is a specification for diodes called the characteristic (or recommended) forward voltage (usually between 1.5-4V for LEDs). You must reach the characteristic forward voltage to turn 'on' the diode or LED, but as you exceed the characteristic forward voltage, the LED's resistance quickly drops off. Therefore, the LED will begin to draw a bunch of current and in some cases, burn out. A resistor is used in series with the LED to keep the current at a specific level called the characteristic (or recommended) forward current.
 
-![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/image1.jpg)
+<p align="center">
+    <img src="https://www.sparkfun.com/tutorial/LEDresistors/image1.jpg">
+</p>
 
 Using the circuit above, you will need to know three values in order to determine the current limiting resistor value.
 
@@ -47,18 +49,18 @@ Also, keep in mind these two concepts when referring to the circuit above.
 You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) online which will tell you exactly which resistor you should be using for your ciruit!
 
 
-## Part 1 
+## Part 1 - simple blink
 
-basic blink sketch with digital pin
+We start by putting together a simple LED circuit which we will blink on/off with our Arduino.  The circuit you'll put together on your breadboard can be found below, and you'll be using the [Blink sketch](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_2/Blink.ino) on the arduino.  Note that the sketch assumes you've hooked your LED up to digital pin **8**.
 
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-1.svg)
 
-## Part 2
+## Part 2 - adding in a switch
 
 adding in the switch
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-2.svg)
 
-## Part 3
+## Part 3 - adding in a potentiometer
 
 using a potentiometer
 ![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-3.svg)
