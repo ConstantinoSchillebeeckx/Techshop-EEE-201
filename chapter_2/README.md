@@ -24,7 +24,9 @@ basic blink sketch with digital pin
 ## Part 2
 
 adding in the switch
+![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-2.svg)
 
 ## Part 3
 
 using a potentiometer
+![circuit1](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter-2-Part-3.svg)
