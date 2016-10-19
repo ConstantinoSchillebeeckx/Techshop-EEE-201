@@ -36,4 +36,4 @@ Any line that starts with two slashes (//) will not be read by the compiler, so 
 
 ## Part 2
 
-So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential ["Hello world!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/BareMinimum.ino) into your IDE now.
+So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential [*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/BareMinimum.ino) into your IDE now.

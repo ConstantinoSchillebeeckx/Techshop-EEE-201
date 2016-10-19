@@ -1,6 +1,8 @@
 # Techshop EEE-201: Basic programming
 
-In this pre-chapter, we will quickly cover how to use a [breadboard](https://en.wikipedia.org/wiki/Breadboard); knowing how to use one correctly will be really important in the coming chapters.
+## Chapter 0
+
+In this introductory chapter, we will quickly cover how to use a [breadboard](https://en.wikipedia.org/wiki/Breadboard); knowing how to use one correctly will be really important in the coming chapters.
 
 An electronics breadboard (as opposed to the type on which sandwiches are made) is actually referring to a solderless breadboard. These are great units for making temporary circuits and prototyping, and they require absolutely no soldering.
 

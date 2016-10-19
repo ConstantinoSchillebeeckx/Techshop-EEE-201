@@ -32,13 +32,11 @@ Let's get started with Arduino!  In this chapter we are going to cover the most 
 
 ## [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2)
 
-In this chapter we are going to run through the very bare-bone basics of the Arduino sketch.  
-
-- simple digital output
-- blink an LED
-- byte variable type
-- use a switch (e.g. R while B is blinking)
-- use the potentiometer
+Our Arduino examples haven't actually done much yet, let's change that!  In this chapter we will learn how to control the blinking of a small light emitting diode (LED); we'll be covering the following topics:
+- blinking an LED with `digitalWrite()`
+- variable type `byte`
+- using a normally open (NO) switch 
+- using a potentiometer to adjust the brightness of the LED
 
 
 ## [Chapter 3](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_3)
