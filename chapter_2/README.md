@@ -20,7 +20,7 @@ Using the circuit above, you will need to know three values in order to determin
 
 Once you have obtained these three values, plug them into this equation to determine the current limiting resistor:
 
-![equation](http://latex.codecogs.com/gif.latex?Concentration%3D%5Cfrac%7BTotalTemplate%7D%7BTotalVolume%7D)  
+![equation](http://latex.codecogs.com/gif.latex?R&space;=&space;\frac{V_{s}-V_{f}}{i})  
 
 Also, keep in mind these two concepts when referring to the circuit above.
 1. The current, `i`, coming out of the power source, through the resistor and LED, and back to ground is the same. [KCL](http://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws#Kirchhoff.27s_current_law_.28KCL.29)
