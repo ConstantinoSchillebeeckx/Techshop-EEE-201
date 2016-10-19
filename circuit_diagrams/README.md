@@ -2,9 +2,7 @@
 
 ## Circuit diagrams
 
-<mark>TODO</mark>
-
-Adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)
+The following document will guide you through the basics of circuit diagrams; it is meant as a starting guide for orienting yourself in some of the diagrams you'll expect to see in this course. *The content is adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)*
 
 ## Table of Contents
 
@@ -19,6 +17,27 @@ Adapted from [Sparkfun](https://learn.sparkfun.com/tutorials/how-to-read-a-schem
     * [DC or AC Voltage Sources](#dc-or-ac-voltage-sources)
     * [Batteries](#batteries)
     * [Voltage Nodes](#voltage-nodes)
+* [Schematic Symbols (Part 2)](#schematic-symbols-part-2)
+  * [Diodes](#diodes)
+  * [Transistors](#transistors)
+    * [Bipolar Junction Transistors (BJTs)](#bipolar-junction-transistors-bjts)
+    * [Metal Oxide Field-Effect Transistors (MOSFETs)](#metal-oxide-field-effect-transistors-mosfets)
+  * [Digital Logic Gates](#digital-logic-gates)
+  * [Integrated Circuits](#integrated-circuits)
+  * [Unique ICs: Op Amps, Voltage Regulators](#unique-ics-op-amps-voltage-regulators)
+  * [Miscellany](#miscellany)
+    * [Crystals and Resonators](#crystals-and-resonators)
+    * [Headers and Connectors](#headers-and-connectors)
+    * [Motors, Transformers, Speakers, and Relays](#motors-transformers-speakers-and-relays)
+    * [Fuses and PTCs](#fuses-and-ptcs)
+* [Reading Schematics](#reading-schematics)
+  * [Nets, Nodes and Labels](#nets-nodes-and-labels)
+    * [Junctions and Nodes](#junctions-and-nodes)
+    * [Net Names](#net-names)
+* [Schematic Reading Tips](#schematic-reading-tips)
+  * [Identify Blocks](#identify-blocks)
+  * [Recognize Voltage Nodes](#recognize-voltage-nodes)
+  * [Reference Component Datasheets](#reference-component-datasheets)
 
 
 ## Introduction
@@ -212,9 +231,6 @@ Simple voltage regulators are usually three-terminal components with input, outp
 <p align="center">
     <img src="https://cdn.sparkfun.com/assets/8/3/5/4/4/51cca328ce395f7a69000000.png">
 </p>
-<p align="center">
-    <img src="">
-</p>
 
 ### Miscellany
 
@@ -224,9 +240,6 @@ Crystals or resonators are usually a critical part of microcontroller circuits. 
 
 <p align="center">
     <img src="https://cdn.sparkfun.com/assets/a/e/5/6/f/51ccac08ce395f776c000000.png">
-</p>
-<p align="center">
-    <img src="">
 </p>
 
 #### Headers and Connectors
