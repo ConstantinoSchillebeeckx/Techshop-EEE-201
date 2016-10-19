@@ -16,6 +16,7 @@ In this chapter, we are going to start building circuits and using our Arduino t
 * [Part 1 - simple blink](#part-1---simple-blink)
   * [Circuit](#circuit)
   * [Sketch](#sketch)
+  * [Named variables](#named-variables)
 * [Part 2 - adding in a switch](#part-2---adding-in-a-switch)
 * [Part 3 - adding in a potentiometer](#part-3---adding-in-a-potentiometer)
 
@@ -104,6 +105,33 @@ void loop() {
 If you remember what we learned in [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1), you should know that whatever is written inside the `loop()` function is, as the name implies, looped or repeated as long as the Arduino is on.  In this case, we use the [`digitalWrite()`](https://www.arduino.cc/en/Reference/DigitalWrite) to turn the pin 8 *on* or `HIGH` - what this means is that the voltage on this pin is turned on to 5V so that current can flow from the pin - this will turn your LED on!  Next, the Arduino interprets the [`delay()`](https://www.arduino.cc/en/Reference/Delay) function; this simply pauses the sketch for the duration defined in the function, in this case it's 1,000 miliseconds (or 1 second).  The next two lines within the `loop()` function are exactly the same except that instead of writing `HIGH` to pin 8, we tell the Arduino to write `LOW` - think of this as turning off the current flow in the pin, setting the voltage to 0V - this will turn your LED off.
 
 And that's it!  This sketch will turn your LED on for 1 second, then turn it off for 1 second; this gets repeated forever!
+
+### Named variables
+
+What happens if you'd want to change which pin controls your blinking LED?  That's easy enough, just change all the 8s in your sketch to say, 9.  That means we'd have to change 3 lines of code; that doesn't sound very practical.  We can get around this by using [variable names](https://www.arduino.cc/en/Tutorial/Variables) - you can think of these as a place holder for a specific piece of information.  Let's start by an example, change your sketch to match the following and upload it:
+
+```c
+// the setup function runs once when you press reset or power the board
+
+byte ledPin = 8; // declare a new 'byte' type variable and set it to the value 8
+
+void setup() {
+  // initialize digital pin 8 as an output.
+  pinMode(ledPin, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(ledPin, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(ledPin, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+
+The LED should blink just like it did before!  All we've done is create a placeholder called `ledPin` and stored the value 8 to it.  Then, whenever we have to refer to the value 8, we can just use the variable `ledPin`.  But what is all this [`byte`](https://www.arduino.cc/en/Reference/Byte) business about?  Well that's the variable type.  In the programming language that Arduino uses, we have to specify how much memory we want to allocate to memory; in this case, we are allocating one variable with the size of a `byte`.  It's like telling the Arduino how much memory we expect to be using; this way the Arduino can check to see if it has enough.  Remember the Arduino does not have a lot of memoery.  
+
+A `byte` stores an 8-bit unsigned number and can range from 0 to 255.  Unsigned simply means that it can't be negative; and 8-bit is the same as saying 2 to the power of 8 (which is 255).  You might be wondering, what if I want to store the value 438?  Well, that wouldn't "fit" into a byte, and you'd have to use an [`int`](https://www.arduino.cc/en/Reference/Int) instead.  We'll be covering the other variable types in the future, but for now the `byte` should be all that we need.
 
 
 ## Part 2 - adding in a switch
