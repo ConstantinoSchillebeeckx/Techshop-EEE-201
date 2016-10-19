@@ -1,4 +1,6 @@
-![Techshop logo](http://3dprintingforbeginners.com/wp-content/uploads/2013/03/techshop.png "Techshop logo")
+<p align="right">
+    <img src="http://3dprintingforbeginners.com/wp-content/uploads/2013/03/techshop.png">
+</p>
 
 # Techshop EEE-201: Basic programming
 Description of course ... TODO
