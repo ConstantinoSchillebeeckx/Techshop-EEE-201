@@ -7,7 +7,7 @@ Welcome to chapter 1!  Let's get started learning the basics of how to use an Ar
 - `setup()` function
 - `loop()` function
 - The serial monitor and the `println()` function
-- using comments
+- Using comments
 
 ## Table of contents
 
@@ -50,7 +50,7 @@ void loop() {
 ```
 The `loop()` function does precisely what its name suggests, and loops consecutively, allowing your program to change and respond as it runs. Code in the `loop()` section of your sketch is used to actively control the board.
 
-Any line that starts with two slashes (//) will not be read by the Arduino, so you can write anything you want after it. The two slashes may be put after functional code to keep comments on the same line. Commenting your code like this can be particularly helpful in explaining, both to yourself and others, how your program functions step by step.
+Any line that starts with two slashes (`//`) will not be read by the Arduino, so you can write anything you want after it. The two slashes may be put after functional code to keep comments on the same line. Commenting your code like this can be particularly helpful in explaining, both to yourself and others, how your program functions step by step.
 
 ## Part 2 - serial monitor
 
