@@ -12,6 +12,7 @@ Prototyping is the process of testing out an idea by creating a preliminary mode
 For those new to electronics and circuits, breadboards are often the best place to start. That is the real beauty of breadboards–they can house both the simplest circuit as well as very complex circuits. As you’ll see later in this tutorial, if your circuit outgrows its current breadboard, others can be be attached to accommodate circuits of all sizes and complexities.
 
 We will be using breadboards to build circuits; in this class, we will often use circuit diagrams as a reference for building those circuits.  The following document will guide you through the basics of circuit diagrams; it is meant as a starting guide for orienting yourself in some of the diagrams you'll expect to see in this course. 
+
 *The content is adapted from [Sparkfun: How to Read a Schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/schematic-symbols-part-1)*
 
 
