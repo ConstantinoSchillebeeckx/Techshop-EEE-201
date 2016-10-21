@@ -14,7 +14,6 @@ Description of course ... TODO
 - 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507)
 - 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190)
 - 1 x [10K potentiometer](https://www.sparkfun.com/products/9806)
-- [jumper wires](https://www.sparkfun.com/products/13870)
 
 
 ## [Chapter 0](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_0)
