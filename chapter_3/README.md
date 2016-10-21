@@ -18,10 +18,10 @@ TODO
 
 ## Part 1 - analog inputs
 
-In [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2) we used the **output** of a digital pin to control the blinking of a LED; in this first part we are going to be looking at inputs.  But not just any type of input, we're going to be using an analog input.  Previously, we see that we could set the digital pin to either `HIGH` or `LOW`; that is, it could be set to only two values.  An analog pin is different in that it can have many values, in our case, 1024 to be exact!  Let's begin with an example; the circuit we want is shown below, and the sketch your after is [AnalogInput.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/AnalogInput.ino):x.
+In [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2) we used the **output** of a digital pin to control the blinking of a LED; in this first part we are going to be looking at inputs.  But not just any type of input, we're going to be using an analog input.  Previously, we see that we could set the digital pin to either `HIGH` or `LOW`; that is, it could be set to only two values.  An analog pin is different in that it can have many values, in our case, 1024 to be exact!  Let's begin with an example; the circuit we want is shown below, and the sketch your after is [AnalogInput.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/AnalogInput.ino).
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_2/Chapter_3-Part_1_bb.svg">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_1_bb.svg">
 </p>
 
 Let's break the sketch down by looking at the top part first.
