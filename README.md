@@ -1,5 +1,5 @@
 <p align="right">
-    <img src="http://3dprintingforbeginners.com/wp-content/uploads/2013/03/techshop.png">
+    <img src="https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/TS_logo.png">
 </p>
 
 # Techshop EEE-201: Basic programming
