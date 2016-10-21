@@ -97,8 +97,10 @@ The circuit you need to build is seen below and the sketch we're going to use is
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
 </p>
 
+TODO explain circuit/sketch
 
-if statment reading the analog input to turn on RGB channel on, off
-switch to control another RGB channel
-blink on another channel
+**Explore:**
+- How can we see what voltage is being set by the trimpot?
+- Right now the trimpot controls two of the RGB channels, how can we change our circuit so that one channel automatically blinks with a frequency of 1Hz (once a second)?
+- How to make the LED show a white color?  How about purple?
 
