@@ -87,6 +87,17 @@ The only new part in this sketch is the use of the `analogWrite()` function.  Al
 
 ## Part 3 - Putting it all together
 
+So far we've completely ignored the fact that the LED we've been using is actually 3 LEDs built into one.  So, for this last part of this class, we are going to put everything we learned together to control all three colors of the LED.  But before we do that, we need to learn one more thing: the [`if`](https://www.arduino.cc/en/Reference/If) control statement.
+
+TODO explain `if`
+
+The circuit you need to build is seen below and the sketch we're going to use is the [FadeIf.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/FadeIf.ino) sketch.
+
+<p align="center">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
+</p>
+
+
 if statment reading the analog input to turn on RGB channel on, off
 switch to control another RGB channel
 blink on another channel

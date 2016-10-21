@@ -4,7 +4,7 @@
  This example shows how to fade an LED using the analogWrite() function.
 
  The circuit:
- * LED attached from digital pin 8 to ground.
+ * LED attached from digital pin 11 to ground.
 
  Example adapted from the Arduino example.
 
@@ -15,7 +15,7 @@
  */
 
 
-byte ledPin = 9;    // LED connected to digital pin 9
+byte ledPin = 11;    // LED connected to digital pin 11 (or any PWM pin)
 
 void setup() {
   // nothing happens in setup
