@@ -8,10 +8,10 @@ Description of course ... TODO
 
 ## Suppplies
 
-- 1 x [Educato board](https://moderndevice.com/product/educato/)
+- 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board)
 - 1 x [small breadboard](https://www.sparkfun.com/products/12002)
 - 1 x [RGB LED](https://www.sparkfun.com/products/11679)
-- 3 x 220 ohm resistors
+- 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507)
 - 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190)
 - 1 x [10K potentiometer](https://www.sparkfun.com/products/9806)
 - [jumper wires](https://www.sparkfun.com/products/13870)
