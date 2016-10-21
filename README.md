@@ -1,5 +1,5 @@
 <p align="right">
-    <img src="https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/TS_logo.png">
+    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/TS_logo.png">
 </p>
 
 # Techshop EEE-201: Basic programming
