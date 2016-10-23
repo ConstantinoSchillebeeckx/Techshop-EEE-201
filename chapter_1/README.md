@@ -82,5 +82,7 @@ void loop() {
 
 Remember, the `loop()` just repeats [*Ad nauseam*](https://en.wikipedia.org/wiki/Ad_nauseam); in this case, we use the [`println()`](https://www.arduino.cc/en/Serial/Println) function to print text to it so that we can see it on our screen.  Since that's the only line of code we've added, and since the execution of the code will simply repeat itself, the Arduino keeps interpreting that print statement over and over.
 
-**Explore**: what happens if you change the line of code to `Serial.print("Hello, World!")`?
+**Explore**
+
+- what happens if you change the line of code to `Serial.print("Hello, World!")`?
 
