@@ -73,8 +73,8 @@ You should be able to notice a few things with when comparing the image above to
 - We are taking advantage of the breadboard row #14 to connect the resistor to the black wire.
 
 A few important things to remember:
-- The resistor does not have directionality; that is, you can put it in any direction.
-- The LED **does** have directionality: hook the anode up to pin 8 (5V) and the cathode to resistor (which then goes to GND).
+- The resistor does not have polarity; that is, you can put it in any direction.
+- The LED **does** have polarity: hook the anode up to pin 8 (5V) and the cathode to resistor (which then goes to GND).
 
 ### Sketch
 
