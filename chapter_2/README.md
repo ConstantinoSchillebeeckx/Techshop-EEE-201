@@ -106,6 +106,10 @@ If you remember what we learned in [Chapter 1](https://github.com/ConstantinoSch
 
 And that's it!  This sketch will turn your LED on for 1 second, then turn it off for 1 second; this gets repeated forever!
 
+**Explore**
+
+- how would you have to change your sketch so that the LED blinks at 2 Hz (once every 0.5 seconds)?
+
 ### Named variables
 
 What happens if you'd want to change which pin controls your blinking LED?  That's easy enough, just change all the 8s in your sketch to say, 9.  That means we'd have to change 3 lines of code; that doesn't sound very practical.  We can get around this by using [variable names](https://www.arduino.cc/en/Tutorial/Variables) - you can think of these as a place holder for a specific piece of information.  Let's start by an example, change your sketch to match the following and upload it:
