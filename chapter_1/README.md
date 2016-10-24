@@ -69,15 +69,25 @@ If you have any problems uploading your sketch, check these two things:
 After uploading has finished, open the serial monitor (*Tools* -> *Serial Monitor*) and you should see something like this:
 
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
+
 > Hello, World!
 
 Let's walk through how this works; the first part of our sketch looks like this:
