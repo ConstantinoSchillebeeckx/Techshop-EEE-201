@@ -13,6 +13,7 @@ In this chapter, we are going to start building circuits and using our Arduino t
 
 * [Introduction](#introduction)
     * [Current limiting resistors](#current-limiting-resistors)
+    * [Header pins](#header-pins)
 * [Part 1 - simple blink](#part-1---simple-blink)
   * [Circuit](#circuit)
   * [Sketch](#sketch)
@@ -52,6 +53,27 @@ Also, keep in mind these two concepts when referring to the circuit above:
 
 You can find a handy [resistor calculator](http://led.linear1.org/1led.wiz) online which will tell you exactly which resistor you should be using for your ciruit!  When in doubt, always use a larger resistor than necessary because if you don't, you risk burning up the LED.  In general, using a very large resistor will dim your LED; as you reduce the resistance, your LED will become brighter.
 
+#### Header pins
+
+Before we being using our Arduino, let's get oriented with the board:
+
+<p align="center">
+    <img src="https://moderndevice.com/wp-content/uploads/2014/03/EducatoOnBreadboard.jpg">
+</p>
+
+On the board, we see multiple ICs such as resistors, capacitors, LEDs and so on; however most importantly we also find two rows of black, female headers.  These headers, grouped into three main sections (POWER, ANALOG and DIGITAL) will be the primary way we will interface with the arduino.  They are made up of numerous pins that we will be able to control individually with our sketch.
+
+**POWER**
+
+This is where we can get our voltage from, both as 5V or 3.3V.  We can also get access to *Vin* which will be the same voltage as your power supply (which can be up to 12V).
+
+**ANALOG**
+
+In the analog section we find 6 pins labeled *A0* to *A5* - these are analog inputs which will be described in [Chapter 3](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_3)
+
+**DIGITAL**
+
+In the digital section, we have 14 pins labeled *0* to *13* (there are others but these pins are outside the scope of this class) - these are simple digital pins that we can turn either `HIGH` or `LOW` and will be covered in this chapter.  Notice also that some of the pins have an asterisk by the number; this identifies these pins as supporting pulse width modulation (PWM), whic will be covered in [Chapter 3](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_3)
 
 ## Part 1 - simple blink
 
