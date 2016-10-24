@@ -61,7 +61,7 @@ Before we being using our Arduino, let's get oriented with the board:
     <img src="https://moderndevice.com/wp-content/uploads/2014/03/EducatoOnBreadboard.jpg">
 </p>
 
-On the board, we see multiple ICs such as resistors, capacitors, LEDs and so on; however most importantly we also find two rows of black, female headers.  These headers, grouped into three main sections (POWER, ANALOG and DIGITAL) will be the primary way we will interface with the arduino.  They are made up of numerous pins that we will be able to control individually with our sketch.
+On the board, we see multiple integraded circuits [(ICs)](https://en.wikipedia.org/wiki/Integrated_circuit) such as resistors, capacitors, LEDs and so on; however most importantly we also find two rows of black, female headers.  These headers, grouped into three main sections (POWER, ANALOG and DIGITAL) will be the primary way we will interface with the arduino.  They are made up of numerous pins that we will be able to control individually with our sketch.
 
 **POWER**
 
