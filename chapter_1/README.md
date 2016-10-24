@@ -54,13 +54,31 @@ Any line that starts with two slashes (`//`) will not be read by the Arduino, so
 
 ## Part 2 - serial monitor
 
-So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential [*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/BareMinimum.ino) into your IDE.  Next we will want to upload our sketch to the Arduino so that it knows what we want it to do.  
+So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential [*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/BareMinimum.ino) into your IDE.  Next we will want to upload our sketch to the Arduino so that it knows what we want it to do; here's how:
 
-<mark>TODO upload sketch</mark>
+1. Open the Arduino software (IDE)
+2. Copy and paste your sketch into the window
+3. Save a copy somewhere
+4. Click the *Upload* button which looks like a right-arrow or choose from the menu *Sketch -> Upload*
+
+If you have any problems uploading your sketch, check these two things:
+
+- You have the proper board selected under *Tools -> Board* (it should be `Arduino/Genuino Uno`)
+- You have the proper port selected
 
 After uploading has finished, open the serial monitor (*Tools* -> *Serial Monitor*) and you should see something like this:
 
-<mark>TODO img</mark>
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
+> Hello, World!
 
 Let's walk through how this works; the first part of our sketch looks like this:
 ```c
