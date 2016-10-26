@@ -10,13 +10,9 @@ Up to this point, we've seen how to use the serial monitor and how to control th
 
 ## Table of contents
 
-TODO
-
-## Introduction
-
-
-
-TODO
+* [Part 1 - analog input](#part-1---analog-input)
+* [Part 2 - PWM digital output](#part-2---pwm-digital-output)
+* [Part 3 - Putting it all together](#part-3---putting-it-all-together)
 
 ## Part 1 - analog input
 
