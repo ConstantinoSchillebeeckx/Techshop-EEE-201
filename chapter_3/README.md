@@ -138,10 +138,15 @@ Let's get to it!  The circuit you need to build is seen below and the sketch we'
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
 </p>
 
+As you can see in the circuit, we've now hooked up all three color components of the LED:
+- green (G) is connected to a digital pin (13)
+- blue (B) is connected to the trimpot
+- red (R) is connected to a digital PWM pin (5)
+
 TODO explain circuit/sketch
 
 **Explore:**
 - How can we see what voltage is being set by the trimpot?
 - Right now the trimpot controls two of the RGB channels, how can we change our circuit so that one channel automatically blinks with a frequency of 1Hz (once a second)?
-- How to make the LED show a white color?  How about purple?
+- How can we make the LED show a white color?  How about purple?
 

@@ -13,20 +13,32 @@
   This example code is in the public domain.
 */
 
-byte led = 9;           // the PWM pin the LED is attached to
+byte ledG = 13;
+byte ledR = 5;
 byte brightness = 0;    // how bright the LED is
 byte fadeAmount = 5;    // how many points to fade the LED by
+int analogVal = 0;      // analog value read on pin A5
 
 // the setup routine runs once when you press reset:
 void setup() {
-  // declare pin 9 to be an output:
-  pinMode(led, OUTPUT);
+  pinMode(ledG, OUTPUT);
+  pinMode(ledR, OUTPUT);
 }
 
 // the loop routine runs over and over again forever:
 void loop() {
-  // set the brightness of pin 9:
-  analogWrite(led, brightness);
+
+  analogVal = analogRead(A5); // read analog value
+
+  if (analogVal >= 300) {
+    digitalWrite(ledG, HIGH); // turn green LED on if analogVal is larger than or equal to 300
+  } else {
+    digitalWrite(ledG, LOW); // turn green LED off if analogVal is smaller than 300
+  }
+
+
+  // set the brightness of the red LED
+  analogWrite(ledR, brightness);
 
   // change the brightness for next time through the loop:
   brightness = brightness + fadeAmount;
@@ -35,6 +47,8 @@ void loop() {
   if (brightness <= 0 || brightness >= 255) {
     fadeAmount = -fadeAmount;
   }
+
+
   // wait for 30 milliseconds to see the dimming effect
   delay(30);
 }
