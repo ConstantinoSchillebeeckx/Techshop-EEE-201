@@ -87,11 +87,52 @@ The only new part in this sketch is the use of the `analogWrite()` function.  Al
 
 ## Part 3 - Putting it all together
 
-So far we've completely ignored the fact that the LED we've been using is actually 3 LEDs built into one.  So, for this last part of this class, we are going to put everything we learned together to control all three colors of the LED.  But before we do that, we need to learn one more thing: the [`if`](https://www.arduino.cc/en/Reference/If) control statement.
+So far we've completely ignored the fact that the LED we've been using is actually 3 LEDs built into one.  So, for this last part of this class, we are going to put everything we learned together in order to control all three colors of the LED.  But before we do that, we need to learn one more thing: the [`if`](https://www.arduino.cc/en/Reference/If) control statement.
 
-TODO explain `if`
+An `if` statement allows us to run certain parts of code only *if* a condition, or multiple conditions, are true.  An example might be: *turn LED on, if button 1 is pressed down*; the general format looks like this:
+```c
+if (condition is true)
+{
+  // do something
+}
+```
 
-The circuit you need to build is seen below and the sketch we're going to use is the [FadeIf.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/FadeIf.ino) sketch.
+The condition statment uses *comparison operators* and [*boolean operators*](https://www.arduino.cc/en/Reference/Boolean) to evalute whether a condition is true.  Let's take a look at those.
+
+**Comparison operators**
+
+These allow us to check a single condition in multiple ways; the following operators are available in Arduino:
+> x == y (x is equal to y)
+
+> x != y (x is not equal to y)
+
+> x <  y (x is less than y)  
+
+> x >  y (x is greater than y) 
+
+> x <= y (x is less than or equal to y) 
+
+> x >= y (x is greater than or equal to y)
+
+So, for example, if we were reading an analog value and storing it to the variable `analogVal`, and we wanted to turn a LED on only if the `analogVal` was larger than 500, we'd write something like:
+```c
+if (analogVal >= 500)
+{
+    digitalWrite(ledPin, HIGH); // turn on LED
+}
+```
+
+**Boolean operators**
+
+These allow us to chain multiple comparison operators together through the use of a boolean `AND`, `OR`, or `NOT`.  To exend the above example, let's say we only want to turn the LED on when the `analogVal` is between 500 and 700, we'd write:
+```c
+if (analogVal >= 500 && analogVal <= 700) 
+{
+    digitalWrite(ledPin, HIGH); // turn on LED
+}
+```
+
+Let's get to it!  The circuit you need to build is seen below and the sketch we're going to use is the [FadeIf.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/FadeIf.ino) sketch.
 
 <p align="center">
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
