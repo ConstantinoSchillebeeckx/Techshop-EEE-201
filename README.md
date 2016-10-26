@@ -4,7 +4,7 @@
 
 # Techshop EEE-201: Basic programming
 
-In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  THe three hours will switch between instruction, hands-on and some free time.
+In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  THe three hours will switch between instruction, hands-on and some free time.  A PDF of the course material can be downloaded in order to get yourself familiar with all the course content.
 
 This is a fast track class for people who want to add simple automation to their projects. Example programs will be provided. You can cut and paste from the examples to start writing your own programs.
 
@@ -19,7 +19,7 @@ If you bring your own laptop, you **MUST** pre-download and install the Arduino 
 You must make arrangements for a computer before signing up for the class - either be able to bring a laptop, or call the shop for assistance.
 
 
-## Suppplies
+## Course Suppplies
 
 - 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board)
 - 1 x [small breadboard](https://www.sparkfun.com/products/12002)
