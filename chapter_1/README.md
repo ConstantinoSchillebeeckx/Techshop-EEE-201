@@ -67,28 +67,9 @@ If you have any problems uploading your sketch, check these two things:
 - You have the proper port selected
 
 After uploading has finished, open the serial monitor (*Tools* -> *Serial Monitor*) and you should see something like this:
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
-
-> Hello, World!
+<p align="center">
+    <img src="https://raw.githubusercontent.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_1/monitor.png">
+</p>
 
 Let's walk through how this works; the first part of our sketch looks like this:
 ```c
