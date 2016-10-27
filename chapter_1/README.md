@@ -54,7 +54,7 @@ Any line that starts with two slashes (`//`) will not be read by the Arduino, so
 
 ## Part 2 - serial monitor
 
-So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential [*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/BareMinimum.ino) into your IDE.  Next we will want to upload our sketch to the Arduino so that it knows what we want it to do; here's how:
+So far we haven't actually done anything with the Arduino, let's fix that!  We begin with the quintessential [*Hello, World!*](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) example; copy/paste [HelloWorld.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_1/HelloWorld.ino) into your IDE.  Next we will want to upload our sketch to the Arduino so that it knows what we want it to do; here's how:
 
 1. Open the Arduino software (IDE)
 2. Copy and paste your sketch into the window
