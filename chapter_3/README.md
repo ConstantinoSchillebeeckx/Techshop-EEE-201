@@ -78,7 +78,7 @@ In part 1 we covered analog inputs, but what about analog outpus?  Unfortunately
 
 Enough with the theory, let's take a look with a hands on example, upload the [Fade](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/Fade.ino) sketch to your Aruino.  
 
-The only new part in this sketch is the use of the `analogWrite()` function:
+The only new part in this sketch is the use of the `analogWrite()` function (*make sure you set the `ledPin` variable to a digital pin that support PWM such as 10 or 11*):
 ```c
 void loop() {
   analogWrite(ledPin, 0); // update analog value on ledPin
@@ -101,7 +101,11 @@ void loop() {
 }
 ```
 
-All we're doing is generating an analog output through PWM at various frequencies.  We start it at 0% duty cycle (LED is off), and then increase the frequency slowly, pausing for half a second at each frequency change.  What you should be seeing is that the LED changes in brightness as the PWM frequency is increased.
+All we're doing is generating an analog output through PWM at various frequencies.  We start it at 0% duty cycle (LED is off), and then increase the frequency slowly, pausing for half a second at each frequency change.  What you should be seeing is that the LED slowly increases in brightness as the PWM frequency is increased.
+
+**Explore:**
+
+- how would you make the LED increase in brightness faster?
 
 
 ## Part 3 - Putting it all together
