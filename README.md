@@ -6,7 +6,7 @@
 
 In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  THe three hours will switch between instruction, hands-on and some free time.  
 
-A PDF of the course material can be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/EE201.pdf) (right-click save-as...) in order to get yourself familiar with all the course content or a ZIP with all the course material including code can also be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip)
+A PDF of the course material can be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/EE201.pdf) (*right-click Save Link As...*) in order to get yourself familiar with all the course content or a ZIP with all the course material including code can also be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
 
 This is a fast track class for people who want to add simple automation to their projects. Example programs will be provided. You can cut and paste from the examples to start writing your own programs.
 
