@@ -166,7 +166,50 @@ As you can see in the circuit, we've now hooked up all three color components of
 - blue (B) is connected to the trimpot
 - red (R) is connected to a digital PWM pin (5)
 
-TODO explain circuit/sketch
+The top part of the sketch should be pretty self explanatory by now, so let's go through the `loop()`:
+```c
+// the loop routine runs over and over again forever:
+void loop() {
+
+  analogVal = analogRead(A5); // read analog value
+
+  if (analogVal >= 300) {
+    digitalWrite(ledG, HIGH); // turn green LED on if analogVal is larger than or equal to 300
+  } else {
+    digitalWrite(ledG, LOW); // turn green LED off if analogVal is smaller than 300
+  }
+
+
+  // set the brightness of the red LED
+  analogWrite(ledR, brightness);
+
+  // change the brightness for next time through the loop:
+  brightness = brightness + fadeAmount;
+
+  // reverse the direction of the fading at the ends of the fade:
+  if (brightness <= 0 || brightness >= 255) {
+    fadeAmount = -fadeAmount;
+  }
+
+
+  // wait for 30 milliseconds to see the dimming effect
+  delay(30);
+}
+```
+
+There's a lot going on here, so let's break it down; the code is controlling the state of both the green (`ledG`) and red (`ledR`) LEDs:
+
+**Green LED**
+
+We begin by reading the analog value on pin A5 and setting it to the variable `analogVal`; you'll notice it's hooked up to the trimpot, so as you adjust it, the `analogVal` will change.  Then we encouter our `if` statement; it's setup to turn the green led (pin `ledG`) ON if the `analogVal` is larger than or equal to 300; otherwise it will turn it off.  So far so good.
+
+**Red LED**
+    
+The red LED is a bit more complicated.  We are using PWD (`analogWrite()`) to set the brightness with a variable named `brigthness`.  On our first loop, `brightness` is 0; however, on each loop we adjust the `brigthness` value by adding `fadeAmount` (which equals 5) to it.  BUT! If the `brigthness` is larger than 255 (or less than 0) then we change `fadeAmount` to be the negative of itself.  So, when `fadeAmount` is 5, it would change to -5 and *vice a versa*. What this means, is that on every loop, we change the `brightness` value and thus the PWM duty and thus the brightness of the red LED.
+
+Practically, what this all means is, you should see the red LED slowly getting brighter and then fading AND depending on the value for `analogVal` the green LED will be on or off.  This way you can mix colors!  AND! the blue LED is hooked up to the push button switch so you can manually control it.
+
+
 
 **Explore:**
 - How can we see what voltage is being set by the trimpot?
