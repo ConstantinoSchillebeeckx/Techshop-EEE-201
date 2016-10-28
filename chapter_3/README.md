@@ -213,7 +213,6 @@ Practically, what this all means is, you should see the red LED slowly getting b
 
 **Explore:**
 - How can we see what voltage is being set by the trimpot?
-- Right now the trimpot controls two of the RGB channels, how can we change our circuit so that one channel automatically blinks with a frequency of 1Hz (once a second)?
 - How can we make the LED show a white color?  How about purple?
 - How could we turn all three colors on/off with a single pin?
 
