@@ -24,14 +24,17 @@ In [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree
 
 Let's break the sketch down by looking at the top part first.
 ```c
-byte sensorPin = A0;    // select the input pin for the potentiometer
+byte sensorPin = A0; // select the input pin for the trimpot
 byte ledPin = 13;      // select the pin for the LED
-int sensorValue = 0;  // variable to store the value coming from the sensor
+
+// variable to store the value coming from the sensor
+int sensorValue = 0;  
 
 void setup() {
   // declare the ledPin as an OUTPUT:
   pinMode(ledPin, OUTPUT);
-  // because the analog pins are always INPUT, we don't have to declare it as such
+  // because the analog pins are always INPUT, we 
+  // don't have to declare it as such
 }
 ```
 
@@ -173,10 +176,12 @@ void loop() {
 
   analogVal = analogRead(A5); // read analog value
 
+  // turn green LED on if analogVal is greater than 300,
+  // otherwise turn if off
   if (analogVal >= 300) {
-    digitalWrite(ledG, HIGH); // turn green LED on if analogVal is larger than or equal to 300
+    digitalWrite(ledG, HIGH); // turn green LED on
   } else {
-    digitalWrite(ledG, LOW); // turn green LED off if analogVal is smaller than 300
+    digitalWrite(ledG, LOW); // turn green LED off
   }
 
 
@@ -186,7 +191,8 @@ void loop() {
   // change the brightness for next time through the loop:
   brightness = brightness + fadeAmount;
 
-  // reverse the direction of the fading at the ends of the fade:
+  // reverse the direction of the fading 
+  // when brightest or dullest
   if (brightness <= 0 || brightness >= 255) {
     fadeAmount = -fadeAmount;
   }

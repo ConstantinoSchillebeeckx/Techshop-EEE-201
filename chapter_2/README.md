@@ -105,7 +105,8 @@ You'll be using the [Blink sketch](https://github.com/ConstantinoSchillebeeckx/T
 Just like we saw previously in [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1), our sketch has two parts to is: `setup()` and `loop()`; let's walk through the first part:
 
 ```c
-// the setup function runs once when you press reset or power the board
+// the setup function runs once when you press reset 
+// or power the board
 void setup() {
   // initialize digital pin 8 as an output.
   pinMode(8, OUTPUT);
@@ -117,9 +118,9 @@ In the `setup()` function, we need to tell the Arduino that we are going to use 
 ```c
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(8, HIGH);   // turn the LED on
   delay(1000);                       // wait for a second
-  digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(8, LOW);    // turn the LED off
   delay(1000);                       // wait for a second
 }
 ```
@@ -137,9 +138,12 @@ And that's it!  This sketch will turn your LED on for 1 second, then turn it off
 What happens if you'd want to change which pin controls your blinking LED?  That's easy enough, just change all the 8s in your sketch to say, 9.  That means we'd have to change 3 lines of code; that doesn't sound very practical.  We can get around this by using [variable names](https://www.arduino.cc/en/Tutorial/Variables) - you can think of these as a place holder for a specific piece of information.  Let's start by an example, change your sketch to match the following and upload it:
 
 ```c
-// the setup function runs once when you press reset or power the board
+// the setup function runs once when you press reset
+// or power the board
 
-byte ledPin = 8; // declare a new 'byte' type variable and set it to the value 8
+// declare a new 'byte' type variable and 
+// set it to the value 8
+byte ledPin = 8; 
 
 void setup() {
   // initialize digital pin 8 as an output.
@@ -148,9 +152,9 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  digitalWrite(ledPin, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(ledPin, HIGH);   // turn the LED on
   delay(1000);                       // wait for a second
-  digitalWrite(ledPin, LOW);    // turn the LED off by making the voltage LOW
+  digitalWrite(ledPin, LOW);    // turn the LED off
   delay(1000);                       // wait for a second
 }
 ```
@@ -177,11 +181,12 @@ I've updated the layout by adding a switch in the image below and moving the res
 Let's also modify our sketch a little bit so that the LED always stays on; change the `setup()` and `loop()` to look like this:
 
 ```c
-// the setup function runs once when you press reset or power the board
+// the setup function runs once when you press reset 
+// or power the board
 void setup() {
   // initialize digital pin 8 as an output.
   pinMode(8, OUTPUT);
-  digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(8, HIGH);   // turn the LED on
 }
 
 // the loop function runs over and over again forever
