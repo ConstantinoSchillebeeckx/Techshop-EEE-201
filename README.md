@@ -18,7 +18,7 @@ If you bring your own laptop, you **MUST** pre-download and install the Arduino 
 
 You must make arrangements for a computer before signing up for the class - either be able to bring a laptop, or call the shop for assistance.
 
-A [GitHub repo](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201) has been created to houses all of the course material including a [course document PDF](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/EE201.pdf) as well as a [ZIP with all the course material including code](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
+A [GitHub repo](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201) has been created which houses all of the course material including a [course document PDF](https://rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/EE201.pdf) as well as a [ZIP with all the course material including code](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
 
 
 ## Course Supplies
