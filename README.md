@@ -23,12 +23,12 @@ You must make arrangements for a computer before signing up for the class - eith
 
 ## Course Suppplies
 
-- 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board)
-- 1 x [small breadboard](https://www.sparkfun.com/products/12002)
-- 1 x [RGB LED](https://www.sparkfun.com/products/11679)
-- 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507)
-- 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190)
-- 1 x [10K potentiometer](https://www.sparkfun.com/products/9806)
+- 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board) **you must bring your own**
+- 1 x [small breadboard](https://www.sparkfun.com/products/12002) will be provided
+- 1 x [RGB LED](https://www.sparkfun.com/products/11679) will be provided
+- 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507) will be provided
+- 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190) will be provided
+- 1 x [10K potentiometer](https://www.sparkfun.com/products/9806) will be provided
 
 
 ## [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1)
