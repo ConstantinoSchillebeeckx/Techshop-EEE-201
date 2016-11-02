@@ -4,15 +4,13 @@
 
 # Techshop EEE-201: Basic programming
 
-In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  THe three hours will switch between instruction, hands-on and some free time.  
-
-A PDF of the course material can be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/EE201.pdf) (*right-click Save Link As...*) in order to get yourself familiar with all the course content or a ZIP with all the course material including code can also be [downloaded](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
+In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  The three hours will switch between instruction, hands-on and some free time.  
 
 This is a fast track class for people who want to add simple automation to their projects. Example programs will be provided. You can cut and paste from the examples to start writing your own programs.
 
 The class fee includes a breadboard, switch, LEDs and various electronic components.
 
-**Prerequisites: You must have an Arduino or Arudino compatible board**
+**Prerequisites: You must have an Arduino or Arduino compatible board**
 
 This is Part 2 of the Arduino Electronics Series. Part 1 is building your first Arduino board although you can skip that class and just buy one if you like. Please bring the Arduino board you built in the Arduino Part 1 class and a laptop with the Arduino software and drivers pre-installed. The software may be downloaded [online](https://www.arduino.cc/en/Main/Software).
 
@@ -20,8 +18,10 @@ If you bring your own laptop, you **MUST** pre-download and install the Arduino 
 
 You must make arrangements for a computer before signing up for the class - either be able to bring a laptop, or call the shop for assistance.
 
+A [GitHub repo](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201) has been created to houses all of the course material including a [course document PDF](https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/EE201.pdf) as well as a [ZIP with all the course material including code](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
 
-## Course Suppplies
+
+## Course Supplies
 
 - 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board) **you must bring your own**
 - 1 x [small breadboard](https://www.sparkfun.com/products/12002) will be provided
