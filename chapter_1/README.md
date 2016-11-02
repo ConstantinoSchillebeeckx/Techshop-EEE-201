@@ -39,7 +39,7 @@ void setup() {
 
 }
 ```
-The `setup()` function is called when a sketch starts. Use it to initialize variables, pin modes, start using libraries, etc. The setup function will only run once, after each powerup or reset of the board.
+The `setup()` function is called when a sketch starts. Use it to initialize variables, pin modes, start using libraries, etc. The setup function will only run once, after each power-up or reset of the board.
 
 Next we see the `loop()` section of the sketch:
 ```c
