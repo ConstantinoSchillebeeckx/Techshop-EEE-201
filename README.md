@@ -18,7 +18,7 @@ If you bring your own laptop, you **MUST** pre-download and install the Arduino 
 
 You must make arrangements for a computer before signing up for the class - either be able to bring a laptop, or call the shop for assistance.
 
-A [GitHub repo](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201) has been created which houses all of the course material including a [course document PDF](https://rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/EE201.pdf) as well as a [ZIP with all the course material including code](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/archive/master.zip).
+A [GitHub repo](https://github.com/techshop/EEE-201) has been created which houses all of the course material including a [course document PDF](https://github.com/techshop/EEE-201/blob/master/EE201.pdf) as well as a [ZIP with all the course material including code](https://github.com/techshop/EEE-201/archive/v1.1.zip).
 
 
 ## Course Supplies
@@ -31,7 +31,7 @@ A [GitHub repo](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201) ha
 - 1 x [10K potentiometer](https://www.sparkfun.com/products/9806) will be provided
 
 
-## [Chapter 1](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_1)
+## [Chapter 1](https://github.com/techshop/EEE-201/tree/master/chapter_1)
 
 Let's get started with Arduino!  In this chapter we are going to cover the most basic parts of getting a [sketch](https://www.arduino.cc/en/Tutorial/Sketch) running; we'll be covering the following topics:
 - `setup()` function
@@ -40,7 +40,7 @@ Let's get started with Arduino!  In this chapter we are going to cover the most 
 - Using comments
 
 
-## [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2)
+## [Chapter 2](https://github.com/techshop/EEE-201/tree/master/chapter_2)
 
 Our Arduino examples haven't actually done much yet, let's change that!  In this chapter we will learn how to control the blinking of a small light emitting diode (LED); we'll be covering the following topics:
 - blinking an LED with `digitalWrite()`
@@ -49,14 +49,14 @@ Our Arduino examples haven't actually done much yet, let's change that!  In this
 - using a potentiometer to adjust the brightness of the LED
 
 
-## [Chapter 3](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_3)
+## [Chapter 3](https://github.com/techshop/EEE-201/tree/master/chapter_3)
 
 - Analog input
 - Fading a LED with PWM
 - variable type `int`
 - `if` control structure
 
-## [Appendix](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/appendix)
+## [Appendix](https://github.com/techshop/EEE-201/tree/master/appendix)
 
 This appendix will cover the basics of how a breadboards work, will get you familiar with using them and will cover some of the basics of circuit diagrams.
 

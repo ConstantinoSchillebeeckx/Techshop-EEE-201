@@ -16,10 +16,10 @@ Up to this point, we've seen how to use the serial monitor and how to control th
 
 ## Part 1 - analog input
 
-In [Chapter 2](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/tree/master/chapter_2) we used the **output** of a digital pin to control the blinking of a LED; in this first part we are going to be looking at inputs.  But not just any type of input, we're going to be using an analog input.  Previously, we see that we could set the digital pin to either `HIGH` or `LOW`; that is, it could be set to only two values.  An analog pin is different in that it can have many values, in our case, 1024 to be exact!  Let's begin with an example; the circuit we want is shown below, and the sketch your after is [AnalogInput.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/AnalogInput.ino).
+In [Chapter 2](https://github.com/techshop/EEE-201/tree/master/chapter_2) we used the **output** of a digital pin to control the blinking of a LED; in this first part we are going to be looking at inputs.  But not just any type of input, we're going to be using an analog input.  Previously, we see that we could set the digital pin to either `HIGH` or `LOW`; that is, it could be set to only two values.  An analog pin is different in that it can have many values, in our case, 1024 to be exact!  Let's begin with an example; the circuit we want is shown below, and the sketch your after is [AnalogInput.ino](https://github.com/techshop/EEE-201/blob/master/chapter_3/AnalogInput.ino).
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_1_bb.svg">
+    <img src="https://cdn.rawgit.com/techshop/EEE-201/master/chapter_3/Chapter_3-Part_1_bb.svg">
 </p>
 
 Let's break the sketch down by looking at the top part first.
@@ -79,7 +79,7 @@ In part 1 we covered analog inputs, but what about analog outpus?  Unfortunately
     <img src="https://www.arduino.cc/en/uploads/Tutorial/pwm.gif">
 </p>
 
-Enough with the theory, let's take a look with a hands on example, upload the [Fade](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/Fade.ino) sketch to your Aruino.  
+Enough with the theory, let's take a look with a hands on example, upload the [Fade](https://github.com/techshop/EEE-201/blob/master/chapter_3/Fade.ino) sketch to your Aruino.  
 
 The only new part in this sketch is the use of the `analogWrite()` function (*make sure you set the `ledPin` variable to a digital pin that support PWM such as 10 or 11*):
 ```c
@@ -158,10 +158,10 @@ if (analogVal >= 500 && analogVal <= 700)
 }
 ```
 
-Let's get to it!  The circuit you need to build is seen below and the sketch we're going to use is the [FadeIf.ino](https://github.com/ConstantinoSchillebeeckx/Techshop-EEE-201/blob/master/chapter_3/FadeIf.ino) sketch.
+Let's get to it!  The circuit you need to build is seen below and the sketch we're going to use is the [FadeIf.ino](https://github.com/techshop/EEE-201/blob/master/chapter_3/FadeIf.ino) sketch.
 
 <p align="center">
-    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
+    <img src="https://cdn.rawgit.com/techshop/EEE-201/master/chapter_3/Chapter_3-Part_3_bb.svg">
 </p>
 
 As you can see in the circuit, we've now hooked up all three color components of the LED:
