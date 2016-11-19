@@ -2,7 +2,7 @@
     <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/TS_logo.png">
 </p>
 
-# Techshop EEE-201: Basic programming
+# EEE-201: Arduino 2
 
 In this class, you will learn how to use an Arduino in simple projects.  We will cover programming and the simple electronic circuits needed to connect an Arduino to LEDs, switches and dials in order to control LED brightness and on/off state.  The three hours will switch between instruction, hands-on and some free time.  
 
