@@ -23,13 +23,26 @@ A [GitHub repo](https://github.com/techshop/EEE-201) has been created which hous
 
 ## Course Supplies
 
-- 1 x [Educato board](https://moderndevice.com/product/educato/) (or any [Arduino compatible](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems) board) **you must bring your own**
-- 1 x [small breadboard](https://www.sparkfun.com/products/12002) will be provided
-- 1 x [RGB LED](https://www.sparkfun.com/products/11679) will be provided
-- 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507) will be provided
-- 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190) will be provided
-- 1 x [10K potentiometer](https://www.sparkfun.com/products/9806) will be provided
+You will be working with the supplies listed below.  Please note that you will be given all of the supplies **except for the Educato board, you must provide this yourself**.
 
+### 1 x [Educato board](https://moderndevice.com/product/educato/
+![img](https://moderndevice.com/wp-content/uploads/2014/03/educato.jpg)
+**Note**: any flavor of Arduino board can be used, e.g. [Arduino Uno](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems)
+
+### 1 x [small breadboard](https://www.sparkfun.com/products/12002) 
+![img](https://cdn-shop.adafruit.com/970x728/64-01.jpg)
+
+### 1 x [RGB common cathodeLED](https://www.sparkfun.com/products/11679) 
+![img](https://cdn.sparkfun.com//assets/parts/9/7/00105-03-L.jpg)
+
+### 3 x [330 ohm resistors](https://www.sparkfun.com/products/11507) 
+![img](https://cdn.sparkfun.com//assets/parts/7/4/1/7/11507-02.jpg)
+
+### 1 x [normally open (NO) switch button](https://www.sparkfun.com/products/9190) 
+![img](https://cdn.sparkfun.com//assets/parts/2/6/2/9/09190-03-L.jpg)
+
+### 1 x [10K potentiometer](https://www.sparkfun.com/products/9806) 
+![img](https://cdn.sparkfun.com//assets/parts/3/8/2/3/09806-01.jpg)
 
 ## [Chapter 1](https://github.com/techshop/EEE-201/tree/master/chapter_1)
 
