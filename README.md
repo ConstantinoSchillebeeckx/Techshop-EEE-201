@@ -25,8 +25,9 @@ A [GitHub repo](https://github.com/techshop/EEE-201) has been created which hous
 
 You will be working with the supplies listed below.  Please note that you will be given all of the supplies **except for the Educato board, you must provide this yourself**.
 
-### 1 x [Educato board](https://moderndevice.com/product/educato/
+### 1 x [Educato board](https://moderndevice.com/product/educato/)
 <img src="https://moderndevice.com/wp-content/uploads/2014/03/educato.jpg" width=300 />
+
 **Note**: any flavor of Arduino board can be used, e.g. [Arduino Uno](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems)
 
 ### 1 x [small breadboard](https://www.sparkfun.com/products/12002) 
