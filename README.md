@@ -30,7 +30,7 @@ You will be working with the supplies listed below.  Please note that you will b
 **Note**: any flavor of Arduino board can be used, e.g. [Arduino Uno](https://en.wikipedia.org/wiki/List_of_Arduino_boards_and_compatible_systems)
 
 ### 1 x [small breadboard](https://www.sparkfun.com/products/12002) 
-<img src="https://cdn-shop.adafruit.com/970x728/64-01.jpg" width=100 />
+<img src="https://cdn-shop.adafruit.com/970x728/64-01.jpg" width=600 />
 
 ### 1 x [RGB common cathode LED](https://www.sparkfun.com/products/11679) 
 ![img](https://cdn.sparkfun.com//assets/parts/9/7/00105-03-L.jpg)
