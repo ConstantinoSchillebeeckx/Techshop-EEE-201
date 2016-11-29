@@ -3,4 +3,4 @@
 </p>
 
 # EEE-201
-This repo has moved and is now referred to as [EEE-105: Arduino 1](https://github.com/techshop/EEE-105-Arduino-1)
+This repo has moved and is now referred to as [EEE-105: Arduino 1](https://github.com/techshop/EEE-105-Arduino-1).  This content is being kept here so that any outstanding links still work.
