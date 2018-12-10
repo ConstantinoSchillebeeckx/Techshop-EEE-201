@@ -1,5 +1,5 @@
 <p align="right">
-    <img src="https://cdn.rawgit.com/ConstantinoSchillebeeckx/Techshop-EEE-201/master/TS_logo.png">
+    <img src="https://cdn.jsdelivr.net/gh/ConstantinoSchillebeeckx/Techshop-EEE-201@master/TS_logo.png">
 </p>
 
 :warning: This content is being kept here so that any outstanding links don't break.
